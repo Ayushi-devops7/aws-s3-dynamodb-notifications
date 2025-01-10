@@ -3,8 +3,6 @@
 🚀 **Excited to Share My Latest AWS Project!** 🚀  
 This project integrates several AWS services to automate data storage and send real-time notifications. Check out the video below for a detailed overview of the architecture and how it all works together.
 
----
-
 ## **Project Overview**
 
 This project uses AWS services to build an event-driven system that automates the storage of data uploaded to an S3 bucket and sends real-time notifications via SNS.
@@ -25,11 +23,15 @@ This project uses AWS services to build an event-driven system that automates th
 2. Click on **Create Bucket** and provide a unique bucket name (e.g., `my-s3-bucket-for-upload`).
 3. Choose a region, set the permissions as required, and click **Create**.
 
+---
+
 ### **Step 2: Configure S3 Event Notifications**
 1. Go to your created S3 bucket and navigate to the **Properties** tab.
 2. Under the **Event notifications** section, click **Create event notification**.
 3. Choose an event type, such as `All object create events`.
 4. Select **Send to SQS queue**, and create an SQS queue or select an existing one to capture the notifications.
+
+---
 
 ### **Step 3: Set Up an SQS Queue**
 1. Navigate to the **SQS** service in AWS.
@@ -37,6 +39,8 @@ This project uses AWS services to build an event-driven system that automates th
 3. Choose a standard queue and give it a name (e.g., `my-sqs-queue`).
 4. Keep the default settings for now, and click **Create Queue**.
 5. Note the Queue ARN, which will be used in the Lambda function.
+
+---
 
 ### **Step 4: Create a Lambda Function**
 1. Go to **Lambda** in AWS Console and click on **Create function**.
