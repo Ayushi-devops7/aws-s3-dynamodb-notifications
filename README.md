@@ -1,6 +1,6 @@
 # AWS S3 to DynamoDB Automation with Real-Time Notifications
 
-🚀 **Excited to Share My Latest AWS Project!** 🚀  
+**Excited to Share My Latest AWS Project!**   
 This project integrates several AWS services to automate data storage and send real-time notifications.
 
 ## **Project Overview**
@@ -110,5 +110,5 @@ This project uses AWS services to build an event-driven system that automates th
 ---
 
 ## **Conclusion**
-This project demonstrates the power of AWS services to build an event-driven, automated workflow. From S3 uploads to real-time notifications, every step showcases efficient cloud resource management. Feedback and suggestions are always welcome! 😊
+This project demonstrates the power of AWS services to build an event-driven, automated workflow. From S3 uploads to real-time notifications, every step showcases efficient cloud resource management. Feedback and suggestions are always welcome! 
 
